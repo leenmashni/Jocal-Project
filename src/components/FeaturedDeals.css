@@ -1,0 +1,366 @@
+.featured-deals {
+  padding: 60px 40px;
+  background: #f9f5f1;
+}
+
+.featured-deals h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #b46c4c;
+  
+
+}
+
+.deal-card {
+  width: 100%;
+  background: #f9f5f1;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-swiper {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 12px;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.promo {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+
+.deal-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.deal-card:hover {
+  transform: translateY(-5px);
+}
+
+.slide-img,
+.deal-video {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.featured-deals {
+  padding: 60px 20px;
+  background: #fef9f4;
+  text-align: center;
+}
+
+.featured-deals h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #6D3733;
+  margin-bottom: 40px;
+}
+
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.gucci-card {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fef9f4;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+    position: relative; 
+}
+
+.gucci-card:hover {
+  transform: translateY(-4px);
+}
+
+.media-container {
+  aspect-ratio: 1 / 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.gucci-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+.gucci-info {
+  padding: 16px;
+  text-align: center;
+}
+
+.gucci-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.gucci-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.gucci-info p strong {
+  color: #6D3733;
+}
+
+
+.add-deal-btn {
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: #6d3733;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-deal-btn:hover {
+  background-color: #844239;
+}
+
+.deal-actions {
+  position: relative;
+  display: inline-block;
+}
+
+.deal-actions button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #6d3733;
+}
+
+.action-menu {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.action-menu button {
+  display: block;
+  padding: 8px 12px;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.action-menu button:hover {
+  background-color: #f2f2f2;
+}
+
+.edit-controls {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 5;
+}
+
+.edit-controls > button {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #6D3733;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: background 0.2s ease;
+}
+
+.edit-controls > button:hover {
+  background: #f3dcd4;
+}
+
+.action-menu {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 120px;
+  z-index: 10;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.action-menu button {
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 14px;
+  color: #6D3733;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.action-menu button:hover {
+  background-color: #fef1ed;
+}
+
+/* Add this to FeaturedDeals.css */
+
+.deals-swiper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #6d3733; /* Match your theme */
+  top: 45%;
+}
+
+.swiper-wrapper {
+  align-items: stretch;
+}
+
+.add-deal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+}
+
+.add-deal-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.add-deal-form button {
+  background: #5d2c22;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* Modal Overlay Background */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* dark background */
+  backdrop-filter: blur(3px); /* optional blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Card (Form Container) */
+.modal-card {
+  background: #fff;
+  padding: 32px;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Close Button (X) */
+.close-button {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #6d3733;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Modal Input Fields */
+.modal-card input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+.modal-card button {
+  background-color: #6d3733;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.modal-card button:hover {
+  background-color: #844239;
+}
+
+/* Optional: Smooth appearance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

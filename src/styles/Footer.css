@@ -1,0 +1,79 @@
+.jocal-footer {
+  background: #331915;
+  color: #f7f3ef;
+  padding: 50px 20px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-left h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #bea792;
+}
+
+.footer-left p {
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+.footer-center h4,
+.footer-right h4 {
+  margin-bottom: 10px;
+  color: #e5cbb1;
+  font-size: 18px;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center li {
+  margin-bottom: 6px;
+}
+
+.footer-center a {
+  color: #f0e6dd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-center a:hover {
+  color: #bd835b;
+}
+
+.footer-right p {
+  margin: 4px 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons i {
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #bea792;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #cabbb1;
+}

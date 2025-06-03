@@ -1,0 +1,128 @@
+/* Base Navbar */
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  z-index: 1000;
+  background: transparent;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center; 
+}
+
+/* When Scrolled */
+.navbar.scrolled {
+  background-color: #f7e7d8;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  padding: 8px 20px;
+  border-radius: 14px;
+  width: 88%;
+}
+
+/* Navbar inner container */
+.navbar-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* ✅ ensures vertical centering */
+}
+
+/* Logo */
+.navbar-logo {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+  display: flex;
+  align-items: center;
+  justify-content: center;       /* Add this for centering */
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.navbar-logo-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Nav Links */
+.main-nav {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex: 1; 
+}
+
+.main-nav .nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  color: #f9f5f1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.navbar.scrolled .main-nav .nav-link {
+  color: #331715;
+}
+
+/* Login Button */
+.login-btn {
+  all: unset;
+  padding: 8px 16px;
+  background-color: #6D3733;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.login-btn:hover {
+  background-color: #844239;
+}
+
+/* Wishlist Button */
+.wishlist-btn {
+  background-color: #f7e7e1;
+  border-radius: 50%;
+  padding: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  color: #6D3733;
+}
+
+.wishlist-btn:hover {
+  background-color: #f3dcd4;
+  transform: scale(1.1);
+}
+
+.wishlist-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.navbar.scrolled .wishlist-btn {
+  background-color: #f1d5c4;
+  color: #331715;
+}
+
+.icon-button {
+  margin-left: 12px;
+  cursor: pointer;
+}
